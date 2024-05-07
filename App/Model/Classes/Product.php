@@ -56,7 +56,7 @@ class Product extends Database{
                     return "fail";
                 }
             } else {
-                return "paunahoradeconectar";
+                return "errortoconnect";
             }
         } catch (PDOException $err) {
             return "Erro: " . $err->getMessage();
@@ -81,7 +81,7 @@ class Product extends Database{
                     return "fail";
                 }
             } else {
-                return "paunahoradeconectar";
+                return "errortoconnect";
             }
         } catch (PDOException $err) {
             return "Erro: " . $err->getMessage();
@@ -103,7 +103,7 @@ class Product extends Database{
                     return "fail";
                 }
             } else {
-                return "paunahoradeconectar";
+                return "errortoconnect";
             }
         } catch (PDOException $err) {
             return "Erro: " . $err->getMessage();
