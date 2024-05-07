@@ -7,7 +7,7 @@ require_once 'Keys.php';
 use Keys\Keys, PDO, PDOException;
 
 
-abstract class Database extends Keys{
+class Database extends Keys{
 
 
     function connect(): PDO{

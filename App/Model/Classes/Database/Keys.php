@@ -6,7 +6,7 @@ abstract class Keys{
 
     protected $host = "localhost";
     protected $user = "root";
-    protected $db = "databasesolucao";
+    protected $db = "bancodoprojetointegrador";
     protected $password = "";
     protected $port = 3306;
 
